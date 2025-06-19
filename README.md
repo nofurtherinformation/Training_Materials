@@ -18,3 +18,15 @@ Your computer will set up the required programs, libraries, and configuration. T
 Now, navigate to [http://127.0.0.1:8888](http://127.0.0.1:8888) in your web browser and you can use jupyter.
 
 To shut down Docker, you can use the Docker Desktop application or hit Control+C in your terminal.
+
+## Runnig with Docker and Dev Containers!
+
+Follow the above to start the docker compose environment.
+
+1. Install the dev containers extension with yuor IDE (VS Code, Cursor).
+2. Open the command pallete (cmd+shift+p) and look for 'Dev Containers: Attach to Running Container' 
+3. Attach to the relevant docker container
+
+You may need to re-install the Python and jupyter extensions in your IDE from within the dev container for property syntax.
+
+Choose the 'venv' python environment for your notebooks. If using cell-based (`# %%`) syntax python files, use the command palette to `Python: Select Interpreter`
