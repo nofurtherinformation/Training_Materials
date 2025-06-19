@@ -18,3 +18,6 @@ selected*.xlsx
 .venv
 .envrc
 .mac_venv
+data/scot_elex
+data/portland
+data/oakland
